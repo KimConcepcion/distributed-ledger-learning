@@ -1,0 +1,192 @@
+2025-10-13 10:33:42.713 | Creating account...
+2025-10-13 10:33:42.831 | INFO [10-13|08:33:42.831] Maximum peer count                       ETH=50 LES=0 total=50
+2025-10-13 10:33:42.831 | INFO [10-13|08:33:42.831] Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+2025-10-13 10:33:49.053 | 
+2025-10-13 10:33:49.053 | Your new key was generated
+2025-10-13 10:33:49.053 | 
+2025-10-13 10:33:49.053 | Public address of the key:   0xdB9b55ED3b1712bee663cb4A153Ef2eD6F92F998
+2025-10-13 10:33:49.053 | Path of the secret key file: /root/.ethereum/keystore/UTC--2025-10-13T08-33-42.835698445Z--db9b55ed3b1712bee663cb4a153ef2ed6f92f998
+2025-10-13 10:33:49.053 | 
+2025-10-13 10:33:49.053 | - You can share your public address with anyone. Others need it to interact with you.
+2025-10-13 10:33:49.053 | - You must NEVER share the secret key with anyone! The key controls access to your funds!
+2025-10-13 10:33:49.053 | - You must BACKUP your key file! Without the key, it's impossible to access account funds!
+2025-10-13 10:33:49.053 | - You must REMEMBER your password! Without the password, it's impossible to decrypt the key!
+2025-10-13 10:33:49.053 | 
+2025-10-13 10:33:50.155 | INFO [10-13|08:33:50.155] Maximum peer count                       ETH=50 LES=0 total=50
+2025-10-13 10:33:50.155 | INFO [10-13|08:33:50.155] Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+2025-10-13 10:33:50.157 | ERROR[10-13|08:33:50.157] The static-nodes.json file is deprecated and ignored. Use P2P.StaticNodes in config.toml instead. 
+2025-10-13 10:33:50.160 | INFO [10-13|08:33:50.159] Set global gas cap                       cap=50,000,000
+2025-10-13 10:33:50.168 | Using etherbase: db9b55ed3b1712bee663cb4a153ef2ed6f92f998
+2025-10-13 10:33:50.241 | INFO [10-13|08:33:50.240] Maximum peer count                       ETH=50 LES=0 total=50
+2025-10-13 10:33:50.243 | INFO [10-13|08:33:50.242] Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+2025-10-13 10:33:50.244 | ERROR[10-13|08:33:50.244] The static-nodes.json file is deprecated and ignored. Use P2P.StaticNodes in config.toml instead. 
+2025-10-13 10:33:50.245 | DEBUG[10-13|08:33:50.244] FS scan times                            list="157.171µs" set="12.423µs" diff="2.233µs"
+2025-10-13 10:33:50.249 | DEBUG[10-13|08:33:50.249] Sanitizing Go's GC trigger               percent=100
+2025-10-13 10:33:50.250 | INFO [10-13|08:33:50.250] Set global gas cap                       cap=50,000,000
+2025-10-13 10:33:50.252 | INFO [10-13|08:33:50.252] Allocated trie memory caches             clean=154.00MiB dirty=256.00MiB
+2025-10-13 10:33:50.252 | INFO [10-13|08:33:50.252] Using leveldb as the backing database 
+2025-10-13 10:33:50.252 | INFO [10-13|08:33:50.252] Allocated cache and file handles         database=/root/.ethereum/geth/chaindata cache=512.00MiB handles=524,288
+2025-10-13 10:33:50.267 | INFO [10-13|08:33:50.267] Using LevelDB as the backing database 
+2025-10-13 10:33:50.271 | DEBUG[10-13|08:33:50.271] Chain freezer table opened               database=/root/.ethereum/geth/chaindata/ancient/chain table=headers items=0 size=0.00B
+2025-10-13 10:33:50.275 | DEBUG[10-13|08:33:50.275] Chain freezer table opened               database=/root/.ethereum/geth/chaindata/ancient/chain table=hashes  items=0 size=0.00B
+2025-10-13 10:33:50.278 | DEBUG[10-13|08:33:50.278] Chain freezer table opened               database=/root/.ethereum/geth/chaindata/ancient/chain table=bodies  items=0 size=0.00B
+2025-10-13 10:33:50.281 | DEBUG[10-13|08:33:50.281] Chain freezer table opened               database=/root/.ethereum/geth/chaindata/ancient/chain table=receipts items=0 size=0.00B
+2025-10-13 10:33:50.285 | DEBUG[10-13|08:33:50.284] Chain freezer table opened               database=/root/.ethereum/geth/chaindata/ancient/chain table=diffs    items=0 size=0.00B
+2025-10-13 10:33:50.285 | INFO [10-13|08:33:50.284] Opened ancient database                  database=/root/.ethereum/geth/chaindata/ancient/chain readonly=false
+2025-10-13 10:33:50.285 | INFO [10-13|08:33:50.285] Disk storage enabled for ethash caches   dir=/root/.ethereum/geth/ethash count=3
+2025-10-13 10:33:50.285 | INFO [10-13|08:33:50.285] Disk storage enabled for ethash DAGs     dir=/root/.ethash               count=2
+2025-10-13 10:33:50.285 | INFO [10-13|08:33:50.285] Initialising Ethereum protocol           network=1234 dbversion=<nil>
+2025-10-13 10:33:50.286 | INFO [10-13|08:33:50.285] Writing default main-net genesis block 
+2025-10-13 10:33:50.286 | DEBUG[10-13|08:33:50.286] Current full block hash unavailable 
+2025-10-13 10:33:50.803 | INFO [10-13|08:33:50.803] Persisted trie from memory database      nodes=12356 size=1.78MiB time=55.696604ms gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+2025-10-13 10:33:50.849 | INFO [10-13|08:33:50.848]  
+2025-10-13 10:33:50.849 | INFO [10-13|08:33:50.848] --------------------------------------------------------------------------------------------------------------------------------------------------------- 
+2025-10-13 10:33:50.849 | INFO [10-13|08:33:50.849] Chain ID:  1 (mainnet) 
+2025-10-13 10:33:50.849 | INFO [10-13|08:33:50.849] Consensus: Beacon (proof-of-stake), merged from Ethash (proof-of-work) 
+2025-10-13 10:33:50.849 | INFO [10-13|08:33:50.849]  
+2025-10-13 10:33:50.849 | INFO [10-13|08:33:50.849] Pre-Merge hard forks (block based): 
+2025-10-13 10:33:50.849 | INFO [10-13|08:33:50.849]  - Homestead:                   #1150000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/homestead.md) 
+2025-10-13 10:33:50.849 | INFO [10-13|08:33:50.849]  - DAO Fork:                    #1920000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/dao-fork.md) 
+2025-10-13 10:33:50.849 | INFO [10-13|08:33:50.849]  - Tangerine Whistle (EIP 150): #2463000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/tangerine-whistle.md) 
+2025-10-13 10:33:50.850 | INFO [10-13|08:33:50.849]  - Spurious Dragon/1 (EIP 155): #2675000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md) 
+2025-10-13 10:33:50.850 | INFO [10-13|08:33:50.849]  - Spurious Dragon/2 (EIP 158): #2675000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md) 
+2025-10-13 10:33:50.850 | INFO [10-13|08:33:50.849]  - Byzantium:                   #4370000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/byzantium.md) 
+2025-10-13 10:33:50.850 | INFO [10-13|08:33:50.849]  - Constantinople:              #7280000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/constantinople.md) 
+2025-10-13 10:33:50.850 | INFO [10-13|08:33:50.849]  - Petersburg:                  #7280000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/petersburg.md) 
+2025-10-13 10:33:50.850 | INFO [10-13|08:33:50.849]  - Istanbul:                    #9069000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/istanbul.md) 
+2025-10-13 10:33:50.850 | INFO [10-13|08:33:50.849]  - Muir Glacier:                #9200000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/muir-glacier.md) 
+2025-10-13 10:33:50.850 | INFO [10-13|08:33:50.849]  - Berlin:                      #12244000 (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/berlin.md) 
+2025-10-13 10:33:50.850 | INFO [10-13|08:33:50.849]  - London:                      #12965000 (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/london.md) 
+2025-10-13 10:33:50.850 | INFO [10-13|08:33:50.849]  - Arrow Glacier:               #13773000 (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/arrow-glacier.md) 
+2025-10-13 10:33:50.850 | INFO [10-13|08:33:50.849]  - Gray Glacier:                #15050000 (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/gray-glacier.md) 
+2025-10-13 10:33:50.850 | INFO [10-13|08:33:50.849]  
+2025-10-13 10:33:50.850 | INFO [10-13|08:33:50.849] Merge configured: 
+2025-10-13 10:33:50.850 | INFO [10-13|08:33:50.849]  - Hard-fork specification:    https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/paris.md 
+2025-10-13 10:33:50.850 | INFO [10-13|08:33:50.849]  - Network known to be merged: true 
+2025-10-13 10:33:50.850 | INFO [10-13|08:33:50.849]  - Total terminal difficulty:  58750000000000000000000 
+2025-10-13 10:33:50.850 | INFO [10-13|08:33:50.849]  
+2025-10-13 10:33:50.850 | INFO [10-13|08:33:50.849] Post-Merge hard forks (timestamp based): 
+2025-10-13 10:33:50.850 | INFO [10-13|08:33:50.849]  - Shanghai:                    @1681338455 (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/shanghai.md) 
+2025-10-13 10:33:50.850 | INFO [10-13|08:33:50.849]  
+2025-10-13 10:33:50.850 | INFO [10-13|08:33:50.849] --------------------------------------------------------------------------------------------------------------------------------------------------------- 
+2025-10-13 10:33:50.850 | INFO [10-13|08:33:50.849]  
+2025-10-13 10:33:50.850 | INFO [10-13|08:33:50.850] Loaded most recent local block           number=0 hash=d4e567..cb8fa3 td=17,179,869,184 age=56y7mo4d
+2025-10-13 10:33:50.850 | WARN [10-13|08:33:50.850] Failed to load snapshot                  err="missing or corrupted snapshot"
+2025-10-13 10:33:50.853 | INFO [10-13|08:33:50.850] Rebuilding state snapshot 
+2025-10-13 10:33:50.853 | DEBUG[10-13|08:33:50.850] Journalled generator progress            progress=empty
+2025-10-13 10:33:50.853 | DEBUG[10-13|08:33:50.850] Start snapshot generation                root=d7f897..0f0544
+2025-10-13 10:33:50.853 | DEBUG[10-13|08:33:50.850] Reinjecting stale transactions           count=0
+2025-10-13 10:33:50.853 | INFO [10-13|08:33:50.851] Regenerated local transaction journal    transactions=0 accounts=0
+2025-10-13 10:33:50.853 | INFO [10-13|08:33:50.851] Resuming state snapshot generation       root=d7f897..0f0544 accounts=0 slots=0 storage=0.00B dangling=0 elapsed="811.581µs"
+2025-10-13 10:33:50.853 | INFO [10-13|08:33:50.851] Chain post-merge, sync via beacon client 
+2025-10-13 10:33:50.853 | INFO [10-13|08:33:50.851] Gasprice oracle is ignoring threshold set threshold=2
+2025-10-13 10:33:50.853 | WARN [10-13|08:33:50.851] Error reading unclean shutdown markers   error="leveldb: not found"
+2025-10-13 10:33:50.853 | WARN [10-13|08:33:50.852] Engine API enabled                       protocol=eth
+2025-10-13 10:33:50.853 | INFO [10-13|08:33:50.852] Starting peer-to-peer node               instance=Geth/v1.11.6-stable-ea9e62ca/linux-amd64/go1.20.3
+2025-10-13 10:33:50.867 | DEBUG[10-13|08:33:50.867] Journalled generator progress            progress=0x3d45dbfe8844979977e1967ae6e5223e5a82ce87b09cab51c2865987fa20ec91
+2025-10-13 10:33:50.873 | DEBUG[10-13|08:33:50.870] TCP listener up                          addr=[::]:30303
+2025-10-13 10:33:50.873 | DEBUG[10-13|08:33:50.870] UDP listener up                          addr=[::]:30303
+2025-10-13 10:33:50.873 | INFO [10-13|08:33:50.871] New local node record                    seq=1,760,344,430,864 id=9835ed738fc47dc6 ip=127.0.0.1 udp=30303 tcp=30303
+2025-10-13 10:33:50.874 | INFO [10-13|08:33:50.874] Started P2P networking                   self=enode://61c88f0b088aea45c7e16079d418b01cc80e1010dba311661474ae44179d93fe3582673745843779c45c587fd24941b692fcc0183e255adb1b5876099fed029a@127.0.0.1:30303
+2025-10-13 10:33:50.876 | DEBUG[10-13|08:33:50.875] IPCs registered                          namespaces=admin,debug,web3,eth,txpool,ethash,miner,net,engine
+2025-10-13 10:33:50.876 | INFO [10-13|08:33:50.876] IPC endpoint opened                      url=/root/.ethereum/geth.ipc
+2025-10-13 10:33:50.876 | INFO [10-13|08:33:50.876] Generated JWT secret                     path=/root/.ethereum/geth/jwtsecret
+2025-10-13 10:33:50.878 | DEBUG[10-13|08:33:50.877] Allowed origin(s) for WS RPC interface [localhost] 
+2025-10-13 10:33:50.879 | INFO [10-13|08:33:50.878] WebSocket enabled                        url=ws://127.0.0.1:8551
+2025-10-13 10:33:50.879 | INFO [10-13|08:33:50.878] HTTP server started                      endpoint=127.0.0.1:8551 auth=true prefix= cors=localhost vhosts=localhost
+2025-10-13 10:33:50.886 | DEBUG[10-13|08:33:50.885] Journalled generator progress            progress=0x7e3c9d2181192ecfdf638030d6fe66df68a2f678d3b8bedd77faacc1257cd013
+2025-10-13 10:33:50.901 | DEBUG[10-13|08:33:50.900] Journalled generator progress            progress=0xbba51af3f5e64c8c1b0c3335acc4aa270172e67aa87924bbb06bffd08ef4be4b
+2025-10-13 10:33:50.915 | DEBUG[10-13|08:33:50.914] Journalled generator progress            progress=0xfa63c2c56b30333c79307e088be6e27b37ea2b78c808724e15a8ff2d7b70caaf
+2025-10-13 10:33:50.918 | DEBUG[10-13|08:33:50.918] Regenerated state range                  kind=account prefix=0x61 root=d7f897..0f0544 last=0x count=8893 created=8893 updated=0 untouched=0 deleted=0
+2025-10-13 10:33:50.918 | DEBUG[10-13|08:33:50.918] Journalled generator progress            progress=done
+2025-10-13 10:33:50.919 | INFO [10-13|08:33:50.918] Generated state snapshot                 accounts=8893 slots=0 storage=409.64KiB dangling=0 elapsed=68.364ms
+2025-10-13 10:33:50.930 | DEBUG[10-13|08:33:50.929] Adding p2p peer                          peercount=1 id=6b36f791352f15eb conn=dyndial addr=157.90.35.166:30303 name=Geth/v1.16.1-stable-...
+2025-10-13 10:33:50.956 | DEBUG[10-13|08:33:50.955] Message handling failed in `snap`        peer=6b36f791 err=EOF
+2025-10-13 10:33:50.956 | DEBUG[10-13|08:33:50.955] Ethereum handshake failed                id=6b36f791352f15eb conn=dyndial err="network ID mismatch: 1 (!= 1234)"
+2025-10-13 10:33:50.956 | DEBUG[10-13|08:33:50.956] Removing p2p peer                        peercount=0 id=6b36f791352f15eb duration=26.537ms req=true err="subprotocol error"
+2025-10-13 10:33:51.505 | DEBUG[10-13|08:33:51.504] Adding p2p peer                          peercount=1 id=282b1a68a8a4169d conn=dyndial addr=35.242.149.88:30303 name=bor/v2.3.2-beta/linu...
+2025-10-13 10:33:51.534 | DEBUG[10-13|08:33:51.533] Message handling failed in `snap`        peer=282b1a68 err=EOF
+2025-10-13 10:33:51.534 | DEBUG[10-13|08:33:51.534] Ethereum handshake failed                id=282b1a68a8a4169d conn=dyndial err="network ID mismatch: 80002 (!= 1234)"
+2025-10-13 10:33:51.534 | DEBUG[10-13|08:33:51.534] Removing p2p peer                        peercount=0 id=282b1a68a8a4169d duration=29.358ms req=true err="subprotocol error"
+2025-10-13 10:33:51.576 | DEBUG[10-13|08:33:51.576] Adding p2p peer                          peercount=1 id=057130da250bd536 conn=dyndial addr=161.97.89.79:30303  name=Nethermind/v1.20.1+9...
+2025-10-13 10:33:51.605 | DEBUG[10-13|08:33:51.605] Ethereum handshake failed                id=057130da250bd536 conn=dyndial err="network ID mismatch: 2334 (!= 1234)"
+2025-10-13 10:33:51.605 | DEBUG[10-13|08:33:51.605] Removing p2p peer                        peercount=0 id=057130da250bd536 duration=29.474ms req=false err="network ID mismatch: 2334 (!= 1234)"
+2025-10-13 10:33:51.647 | DEBUG[10-13|08:33:51.647] Adding p2p peer                          peercount=1 id=3e3130aa14f609a2 conn=dyndial addr=209.159.156.93:30303 name=Geth/v1.14.7-stable-...
+2025-10-13 10:33:51.652 | DEBUG[10-13|08:33:51.651] Adding p2p peer                          peercount=2 id=b922e86a8a38f740 conn=dyndial addr=51.68.178.234:30303  name=Geth/v1.14.13-stable...
+2025-10-13 10:33:51.669 | DEBUG[10-13|08:33:51.668] Adding p2p peer                          peercount=3 id=3b3a47a6853bb2a4 conn=dyndial addr=51.81.3.139:30303    name=Geth/v3.0.1-pulse-st...
+2025-10-13 10:33:51.670 | DEBUG[10-13|08:33:51.669] Adding p2p peer                          peercount=4 id=0d0ad3383d9870f6 conn=dyndial addr=148.113.190.231:30303 name=Nethermind/v1.34.1+c...
+2025-10-13 10:33:51.670 | DEBUG[10-13|08:33:51.669] Adding p2p peer                          peercount=5 id=32ded72c4987c724 conn=dyndial addr=147.135.117.138:30303 name=Geth/v3.0.1-pulse-st...
+2025-10-13 10:33:51.691 | DEBUG[10-13|08:33:51.690] Ethereum handshake failed                id=b922e86a8a38f740 conn=dyndial err="network ID mismatch: 80094 (!= 1234)"
+2025-10-13 10:33:51.691 | DEBUG[10-13|08:33:51.691] Message handling failed in `snap`        peer=b922e86a err=EOF
+2025-10-13 10:33:51.691 | DEBUG[10-13|08:33:51.691] Removing p2p peer                        peercount=4 id=b922e86a8a38f740 duration=39.336ms req=false err="network ID mismatch: 80094 (!= 1234)"
+2025-10-13 10:33:51.744 | DEBUG[10-13|08:33:51.744] Ethereum handshake failed                id=3e3130aa14f609a2 conn=dyndial err="network ID mismatch: 105105 (!= 1234)"
+2025-10-13 10:33:51.744 | DEBUG[10-13|08:33:51.744] Message handling failed in `snap`        peer=3e3130aa err=EOF
+2025-10-13 10:33:51.745 | DEBUG[10-13|08:33:51.744] Removing p2p peer                        peercount=3 id=3e3130aa14f609a2 duration=97.404ms req=false err="network ID mismatch: 105105 (!= 1234)"
+2025-10-13 10:33:51.778 | DEBUG[10-13|08:33:51.777] Ethereum handshake failed                id=32ded72c4987c724 conn=dyndial err="network ID mismatch: 369 (!= 1234)"
+2025-10-13 10:33:51.778 | DEBUG[10-13|08:33:51.777] Ethereum handshake failed                id=3b3a47a6853bb2a4 conn=dyndial err="network ID mismatch: 369 (!= 1234)"
+2025-10-13 10:33:51.778 | DEBUG[10-13|08:33:51.778] Message handling failed in `snap`        peer=3b3a47a6 err=EOF
+2025-10-13 10:33:51.778 | DEBUG[10-13|08:33:51.778] Message handling failed in `snap`        peer=32ded72c err=EOF
+2025-10-13 10:33:51.778 | DEBUG[10-13|08:33:51.778] Removing p2p peer                        peercount=2 id=32ded72c4987c724 duration=108.408ms req=false err="network ID mismatch: 369 (!= 1234)"
+2025-10-13 10:33:51.778 | DEBUG[10-13|08:33:51.778] Removing p2p peer                        peercount=1 id=3b3a47a6853bb2a4 duration=109.792ms req=false err="network ID mismatch: 369 (!= 1234)"
+2025-10-13 10:33:51.779 | DEBUG[10-13|08:33:51.778] Ethereum handshake failed                id=0d0ad3383d9870f6 conn=dyndial err=EOF
+2025-10-13 10:33:51.779 | DEBUG[10-13|08:33:51.779] Message handling failed in `snap`        peer=0d0ad338 err=EOF
+2025-10-13 10:33:51.779 | DEBUG[10-13|08:33:51.779] Removing p2p peer                        peercount=0 id=0d0ad3383d9870f6 duration=110.461ms req=true  err="too many peers"
+2025-10-13 10:33:51.845 | DEBUG[10-13|08:33:51.843] Adding p2p peer                          peercount=1 id=bb505465adb33297 conn=dyndial addr=177.54.155.209:30303  name=ronin/v1.1.0-0c4fdfb...
+2025-10-13 10:33:51.845 | DEBUG[10-13|08:33:51.844] Adding p2p peer                          peercount=2 id=bfc800a3da8408f4 conn=dyndial addr=34.72.200.31:30303    name=ronin/v1.1.2-2440b67...
+2025-10-13 10:33:51.892 | DEBUG[10-13|08:33:51.892] IP exceeds bucket limit                  ip=3.38.52.18
+2025-10-13 10:33:51.966 | DEBUG[10-13|08:33:51.965] Ethereum handshake failed                id=bb505465adb33297 conn=dyndial err=EOF
+2025-10-13 10:33:51.966 | DEBUG[10-13|08:33:51.965] Message handling failed in `snap`        peer=bb505465 err=EOF
+2025-10-13 10:33:51.966 | DEBUG[10-13|08:33:51.966] Removing p2p peer                        peercount=1 id=bb505465adb33297 duration=122.394ms req=true  err="disconnect requested"
+2025-10-13 10:33:51.967 | DEBUG[10-13|08:33:51.966] Ethereum handshake failed                id=bfc800a3da8408f4 conn=dyndial err="network ID mismatch: 2021 (!= 1234)"
+2025-10-13 10:33:51.968 | DEBUG[10-13|08:33:51.966] Message handling failed in `snap`        peer=bfc800a3 err=EOF
+2025-10-13 10:33:51.968 | DEBUG[10-13|08:33:51.967] Removing p2p peer                        peercount=0 id=bfc800a3da8408f4 duration=123.012ms req=true  err="disconnect requested"
+2025-10-13 10:33:52.128 | DEBUG[10-13|08:33:52.127] Adding p2p peer                          peercount=1 id=9d43919011a515a7 conn=dyndial addr=38.54.50.39:30303     name=Geth/v1.13.14-unstab...
+2025-10-13 10:33:52.175 | DEBUG[10-13|08:33:52.174] Adding p2p peer                          peercount=2 id=965afddd93e97d26 conn=dyndial addr=136.29.86.133:30404   name=Nethermind/v1.34.1+c...
+2025-10-13 10:33:52.314 | DEBUG[10-13|08:33:52.314] Ethereum handshake failed                id=965afddd93e97d26 conn=dyndial err=EOF
+2025-10-13 10:33:52.314 | DEBUG[10-13|08:33:52.314] Message handling failed in `snap`        peer=965afddd err=EOF
+2025-10-13 10:33:52.314 | DEBUG[10-13|08:33:52.314] Removing p2p peer                        peercount=1 id=965afddd93e97d26 duration=139.652ms req=true  err="too many peers"
+2025-10-13 10:33:52.393 | DEBUG[10-13|08:33:52.393] Ethereum handshake failed                id=9d43919011a515a7 conn=dyndial err="network ID mismatch: 12082025 (!= 1234)"
+2025-10-13 10:33:52.393 | DEBUG[10-13|08:33:52.393] Message handling failed in `snap`        peer=9d439190 err=EOF
+2025-10-13 10:33:52.394 | DEBUG[10-13|08:33:52.393] Removing p2p peer                        peercount=0 id=9d43919011a515a7 duration=266.040ms req=false err="network ID mismatch: 12082025 (!= 1234)"
+2025-10-13 10:33:52.435 | DEBUG[10-13|08:33:52.435] Adding p2p peer                          peercount=1 id=7a88986a401e2cee conn=dyndial addr=90.26.18.222:30303    name=Nethermind/v1.31.9+9...
+2025-10-13 10:33:52.435 | DEBUG[10-13|08:33:52.435] Message handling failed in `snap`        peer=7a88986a err=EOF
+2025-10-13 10:33:52.435 | DEBUG[10-13|08:33:52.435] Ethereum handshake failed                id=7a88986a401e2cee conn=dyndial err=EOF
+2025-10-13 10:33:52.435 | DEBUG[10-13|08:33:52.435] Removing p2p peer                        peercount=0 id=7a88986a401e2cee duration="407.231µs" req=false err="snappy: corrupt input"
+2025-10-13 10:33:52.514 | DEBUG[10-13|08:33:52.514] Removed dead node                        b=15 id=ef2d7ab886910dc8 ip=65.108.70.101 checks=0
+2025-10-13 10:33:52.554 | DEBUG[10-13|08:33:52.553] Adding p2p peer                          peercount=1 id=1f671150d534ae2d conn=dyndial addr=65.109.115.235:30303  name=Nethermind/v1.32.4+1...
+2025-10-13 10:33:52.581 | DEBUG[10-13|08:33:52.580] Ethereum handshake failed                id=1f671150d534ae2d conn=dyndial err=EOF
+2025-10-13 10:33:52.581 | DEBUG[10-13|08:33:52.580] Message handling failed in `snap`        peer=1f671150 err=EOF
+2025-10-13 10:33:52.581 | DEBUG[10-13|08:33:52.580] Removing p2p peer                        peercount=0 id=1f671150d534ae2d duration=27.552ms    req=true  err="too many peers"
+2025-10-13 10:33:52.733 | INFO [10-13|08:33:52.733] New local node record                    seq=1,760,344,430,865 id=9835ed738fc47dc6 ip=130.225.198.182 udp=33036 tcp=30303
+2025-10-13 10:33:52.967 | DEBUG[10-13|08:33:52.967] Couldn't add port mapping                proto=tcp extport=30303 intport=30303 interface="UPnP or NAT-PMP" err="no UPnP or NAT-PMP router discovered"
+2025-10-13 10:33:52.967 | DEBUG[10-13|08:33:52.967] Couldn't add port mapping                proto=udp extport=30303 intport=30303 interface="UPnP or NAT-PMP" err="no UPnP or NAT-PMP router discovered"
+2025-10-13 10:33:54.036 | DEBUG[10-13|08:33:54.027] Adding p2p peer                          peercount=1 id=87cf3882c233b158 conn=dyndial addr=18.135.33.220:30314   name=bor/v2.2.9/linux-amd...
+2025-10-13 10:33:54.061 | DEBUG[10-13|08:33:54.060] Ethereum handshake failed                id=87cf3882c233b158 conn=dyndial err=EOF
+2025-10-13 10:33:54.061 | DEBUG[10-13|08:33:54.060] Message handling failed in `snap`        peer=87cf3882 err=EOF
+2025-10-13 10:33:54.061 | DEBUG[10-13|08:33:54.060] Removing p2p peer                        peercount=0 id=87cf3882c233b158 duration=33.069ms    req=true  err="disconnect requested"
+2025-10-13 10:34:01.084 | INFO [10-13|08:34:01.084] Looking for peers                        peercount=0 tried=51 static=0
+2025-10-13 10:34:01.301 | DEBUG[10-13|08:34:01.300] Adding p2p peer                          peercount=1 id=1fd53519788fad0c conn=dyndial addr=142.44.187.210:30304  name=Geth/v1.14.13-stable...
+2025-10-13 10:34:01.412 | DEBUG[10-13|08:34:01.411] Ethereum handshake failed                id=1fd53519788fad0c conn=dyndial err="network ID mismatch: 80094 (!= 1234)"
+2025-10-13 10:34:01.412 | DEBUG[10-13|08:34:01.412] Message handling failed in `snap`        peer=1fd53519 err=EOF
+2025-10-13 10:34:01.412 | DEBUG[10-13|08:34:01.412] Removing p2p peer                        peercount=0 id=1fd53519788fad0c duration=111.901ms   req=true  err="disconnect requested"
+2025-10-13 10:34:01.517 | DEBUG[10-13|08:34:01.516] Revalidated node                         b=1  id=9834ff304f86c58d checks=1
+2025-10-13 10:34:01.627 | DEBUG[10-13|08:34:01.627] Adding p2p peer                          peercount=1 id=1f3b49a061d831cb conn=dyndial addr=34.233.122.92:30304   name=erigon/v3.0.2/linux-...
+2025-10-13 10:34:01.733 | DEBUG[10-13|08:34:01.732] Ethereum handshake failed                id=1f3b49a061d831cb conn=dyndial err=EOF
+2025-10-13 10:34:01.733 | DEBUG[10-13|08:34:01.733] Removing p2p peer                        peercount=0 id=1f3b49a061d831cb duration=105.884ms   req=true  err="disconnect requested"
+2025-10-13 10:34:01.789 | DEBUG[10-13|08:34:01.789] Adding p2p peer                          peercount=1 id=1f0d9917e4a9d006 conn=dyndial addr=65.108.6.43:30304     name=erigon/v3.0.4-406d85...
+2025-10-13 10:34:01.817 | DEBUG[10-13|08:34:01.815] Ethereum handshake failed                id=1f0d9917e4a9d006 conn=dyndial err=EOF
+2025-10-13 10:34:01.817 | DEBUG[10-13|08:34:01.816] Removing p2p peer                        peercount=0 id=1f0d9917e4a9d006 duration=27.099ms    req=true  err="disconnect requested"
+2025-10-13 10:34:06.493 | DEBUG[10-13|08:34:06.492] Adding p2p peer                          peercount=1 id=1ed0f61d5b43047a conn=dyndial addr=51.68.178.233:30303   name=Geth/v1.14.13-stable...
+2025-10-13 10:34:06.518 | DEBUG[10-13|08:34:06.518] Ethereum handshake failed                id=1ed0f61d5b43047a conn=dyndial err="network ID mismatch: 80094 (!= 1234)"
+2025-10-13 10:34:06.518 | DEBUG[10-13|08:34:06.518] Message handling failed in `snap`        peer=1ed0f61d err=EOF
+2025-10-13 10:34:06.518 | DEBUG[10-13|08:34:06.518] Removing p2p peer                        peercount=0 id=1ed0f61d5b43047a duration=25.990ms    req=false err="network ID mismatch: 80094 (!= 1234)"
+2025-10-13 10:34:06.628 | DEBUG[10-13|08:34:06.627] Adding p2p peer                          peercount=1 id=1da2d4c00742a496 conn=dyndial addr=144.76.61.176:30303   name=Nethermind/v1.34.1+c...
+2025-10-13 10:34:06.655 | DEBUG[10-13|08:34:06.654] Message handling failed in `snap`        peer=1da2d4c0 err=EOF
+2025-10-13 10:34:06.656 | DEBUG[10-13|08:34:06.654] Ethereum handshake failed                id=1da2d4c00742a496 conn=dyndial err=EOF
+2025-10-13 10:34:06.656 | DEBUG[10-13|08:34:06.654] Removing p2p peer                        peercount=0 id=1da2d4c00742a496 duration=27.008ms    req=true  err="too many peers"
+2025-10-13 10:34:06.661 | DEBUG[10-13|08:34:06.660] Adding p2p peer                          peercount=1 id=1ccafd9f67072437 conn=dyndial addr=51.68.187.104:30304   name=BeraGeth/v1.16.2-sta...
+2025-10-13 10:34:06.671 | DEBUG[10-13|08:34:06.671] Adding p2p peer                          peercount=2 id=1d8dca5134b6e295 conn=dyndial addr=34.245.203.3:30311    name=Geth/v1.6.1-91e0d265...
+2025-10-13 10:34:06.686 | DEBUG[10-13|08:34:06.685] Ethereum handshake failed                id=1ccafd9f67072437 conn=dyndial err="network ID mismatch: 80094 (!= 1234)"
+2025-10-13 10:34:06.687 | DEBUG[10-13|08:34:06.686] Removing p2p peer                        peercount=1 id=1ccafd9f67072437 duration=25.720ms    req=false err="network ID mismatch: 80094 (!= 1234)"
+2025-10-13 10:34:06.709 | DEBUG[10-13|08:34:06.708] Ethereum handshake failed                id=1d8dca5134b6e295 conn=dyndial err="network ID mismatch: 56 (!= 1234)"
+2025-10-13 10:34:06.709 | DEBUG[10-13|08:34:06.708] Removing p2p peer                        peercount=0 id=1d8dca5134b6e295 duration=37.200ms    req=false err="network ID mismatch: 56 (!= 1234)"
