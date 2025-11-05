@@ -1,0 +1,164 @@
+---
+
+# ----- Volume Definitions -----
+volumes:
+  ethereum-miner1:
+  ethereum-miner2:
+  ethereum-miner3:
+  ethereum-miner4:
+  ethereum-client1:
+  ethereum-client2:
+  ethereum-client3:
+  ethereum-client4:
+
+
+# ----- Network Definition -----
+networks:
+  geth-net:
+    name: geth-net
+    driver: bridge
+
+
+services:
+  # ----- Miner nodes -----
+  miner1:
+    image: ethereum/client-go:v1.11.6
+    container_name: ethereum-miner1
+    restart: unless-stopped
+    entrypoint: ["sh", "/root/start_miner.sh"]
+    ports:
+      - "8545:8545"
+      - "30303:30303"
+    networks:
+      - geth-net
+    environment:
+      - HTTP_PORT=8545
+      - P2P_PORT=30303
+    volumes:
+      - ethereum-miner1:/root/.ethereum
+      - ./genesis.json:/root/genesis.json
+      - ./start_miner.sh:/root/start_miner.sh
+      - ./password.txt:/root/password.txt
+      - ./nodekeys/miner1.key:/root/.ethereum/geth/nodekey
+      - ./config.toml:/root/config.toml
+
+  miner2:
+    image: ethereum/client-go:v1.11.6
+    container_name: ethereum-miner2
+    restart: unless-stopped
+    entrypoint: ["sh", "/root/start_miner.sh"]
+    ports:
+      - "8546:8546"
+      - "30304:30304"
+    networks:
+      - geth-net
+    environment:
+      - HTTP_PORT=8546
+      - P2P_PORT=30304
+    volumes:
+      - ethereum-miner2:/root/.ethereum
+      - ./genesis.json:/root/genesis.json
+      - ./start_miner.sh:/root/start_miner.sh
+      - ./password.txt:/root/password.txt
+      - ./nodekeys/miner2.key:/root/.ethereum/geth/nodekey
+      - ./config.toml:/root/config.toml
+
+  miner3:
+    image: ethereum/client-go:v1.11.6
+    container_name: ethereum-miner3
+    restart: unless-stopped
+    entrypoint: ["sh", "/root/start_miner.sh"]
+    ports:
+      - "8547:8547"
+      - "30305:30305"
+    networks:
+      - geth-net
+    environment:
+      - HTTP_PORT=8547
+      - P2P_PORT=30305
+    volumes:
+      - ethereum-miner3:/root/.ethereum
+      - ./genesis.json:/root/genesis.json
+      - ./start_miner.sh:/root/start_miner.sh
+      - ./password.txt:/root/password.txt
+      - ./nodekeys/miner3.key:/root/.ethereum/geth/nodekey
+      - ./config.toml:/root/config.toml
+
+  miner4:
+    image: ethereum/client-go:v1.11.6
+    container_name: ethereum-miner4
+    restart: unless-stopped
+    entrypoint: ["sh", "/root/start_miner.sh"]
+    ports:
+      - "8548:8548"
+      - "30306:30306"
+    networks:
+      - geth-net
+    environment:
+      - HTTP_PORT=8548
+      - P2P_PORT=30306
+    volumes:
+      - ethereum-miner4:/root/.ethereum
+      - ./genesis.json:/root/genesis.json
+      - ./start_miner.sh:/root/start_miner.sh
+      - ./password.txt:/root/password.txt
+      - ./nodekeys/miner4.key:/root/.ethereum/geth/nodekey
+      - ./config.toml:/root/config.toml
+
+
+  # ----- Client nodes -----
+  client1:
+    image: ethereum/client-go:v1.11.6
+    container_name: ethereum-client1
+    entrypoint: ["sh", "/root/start_client.sh"]
+    environment:
+      - HTTP_PORT=8555
+    networks:
+      - geth-net
+    volumes:
+      - ethereum-client1:/root/.ethereum
+      - ./genesis.json:/root/genesis.json
+      - ./start_client.sh:/root/start_client.sh
+      - ./config.toml:/root/config.toml
+
+  client2:
+    image: ethereum/client-go:v1.11.6
+    container_name: ethereum-client2
+    entrypoint: ["sh", "/root/start_client.sh"]
+    networks:
+      - geth-net
+    environment:
+      - HTTP_PORT=8556
+    volumes:
+      - ethereum-client2:/root/.ethereum
+      - ./genesis.json:/root/genesis.json
+      - ./start_client.sh:/root/start_client.sh
+      - ./config.toml:/root/config.toml
+
+  client3:
+    image: ethereum/client-go:v1.11.6
+    container_name: ethereum-client3
+    entrypoint: ["sh", "/root/start_client.sh"]
+    networks:
+      - geth-net
+    environment:
+      - HTTP_PORT=8557
+    volumes:
+      - ethereum-client3:/root/.ethereum
+      - ./genesis.json:/root/genesis.json
+      - ./start_client.sh:/root/start_client.sh
+      - ./config.toml:/root/config.toml
+
+  client4:
+    image: ethereum/client-go:v1.11.6
+    container_name: ethereum-client4
+    entrypoint: ["sh", "/root/start_client.sh"]
+    networks:
+      - geth-net
+    environment:
+      - HTTP_PORT=8558
+    volumes:
+      - ethereum-client4:/root/.ethereum
+      - ./genesis.json:/root/genesis.json
+      - ./start_client.sh:/root/start_client.sh
+      - ./config.toml:/root/config.toml

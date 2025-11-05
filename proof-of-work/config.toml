@@ -1,0 +1,13 @@
+[Eth]
+NetworkId = 987
+
+[Node.P2P]
+StaticNodes = [
+  "enode://61c88f0b088aea45c7e16079d418b01cc80e1010dba311661474ae44179d93fe3582673745843779c45c587fd24941b692fcc0183e255adb1b5876099fed029a@ethereum-miner1:30303",
+  "enode://4d8424a4aa4e40b80139c48d347fa4d618c3ee817528c50d0d7d87c86da778e12baf7197d90ad40e851b25b9fa6a0463a01eae7330e33192f1fc3a0351319dc8@ethereum-miner2:30304",
+  "enode://d1a2986a8cf58c766dc2fae04fdb0bd5d1a382f4667b29e1052899c0d78a1fd50ca611b2b6f0d89fc055eece339fe7c2ae180a6ed7c3b4f3b17e4f69adc557c0@ethereum-miner3:30305",
+  "enode://4ad4a290621d3a0ace197f5273c212bde1b62d13dfcd120ac6b839d3badeda61d9bdd3318d846aee664597fd0f58ea403676a78b4043807872c6925f7da548f1@ethereum-miner4:30306"
+]
+
+[Node]
+HTTPModules = ["eth", "net", "web3", "personal", "miner", "admin", "txpool", "debug", "clique"]
