@@ -26,9 +26,6 @@ services:
     container_name: ethereum-miner1
     restart: unless-stopped
     entrypoint: ["sh", "/root/start_miner.sh"]
-    ports:
-      - "8545:8545"
-      - "30303:30303"
     networks:
       - geth-net
     environment:
@@ -47,9 +44,6 @@ services:
     container_name: ethereum-miner2
     restart: unless-stopped
     entrypoint: ["sh", "/root/start_miner.sh"]
-    ports:
-      - "8546:8546"
-      - "30304:30304"
     networks:
       - geth-net
     environment:
@@ -68,9 +62,6 @@ services:
     container_name: ethereum-miner3
     restart: unless-stopped
     entrypoint: ["sh", "/root/start_miner.sh"]
-    ports:
-      - "8547:8547"
-      - "30305:30305"
     networks:
       - geth-net
     environment:
@@ -89,9 +80,6 @@ services:
     container_name: ethereum-miner4
     restart: unless-stopped
     entrypoint: ["sh", "/root/start_miner.sh"]
-    ports:
-      - "8548:8548"
-      - "30306:30306"
     networks:
       - geth-net
     environment:
@@ -113,6 +101,8 @@ services:
     entrypoint: ["sh", "/root/start_client.sh"]
     environment:
       - HTTP_PORT=8555
+    ports:
+      - "8555:8555"
     networks:
       - geth-net
     volumes:
@@ -120,6 +110,11 @@ services:
       - ./genesis.json:/root/genesis.json
       - ./start_client.sh:/root/start_client.sh
       - ./config.toml:/root/config.toml
+    depends_on: # Ensure miners are started before client
+      - miner1
+      - miner2
+      - miner3
+      - miner4
 
   client2:
     image: ethereum/client-go:v1.11.6
@@ -129,11 +124,18 @@ services:
       - geth-net
     environment:
       - HTTP_PORT=8556
+    ports:
+      - "8556:8556"
     volumes:
       - ethereum-client2:/root/.ethereum
       - ./genesis.json:/root/genesis.json
       - ./start_client.sh:/root/start_client.sh
       - ./config.toml:/root/config.toml
+    depends_on: # Ensure miners are started before client
+      - miner1
+      - miner2
+      - miner3
+      - miner4
 
   client3:
     image: ethereum/client-go:v1.11.6
@@ -143,11 +145,18 @@ services:
       - geth-net
     environment:
       - HTTP_PORT=8557
+    ports:
+      - "8557:8557"
     volumes:
       - ethereum-client3:/root/.ethereum
       - ./genesis.json:/root/genesis.json
       - ./start_client.sh:/root/start_client.sh
       - ./config.toml:/root/config.toml
+    depends_on: # Ensure miners are started before client
+      - miner1
+      - miner2
+      - miner3
+      - miner4
 
   client4:
     image: ethereum/client-go:v1.11.6
@@ -157,8 +166,15 @@ services:
       - geth-net
     environment:
       - HTTP_PORT=8558
+    ports:
+      - "8558:8558"
     volumes:
       - ethereum-client4:/root/.ethereum
       - ./genesis.json:/root/genesis.json
       - ./start_client.sh:/root/start_client.sh
       - ./config.toml:/root/config.toml
+    depends_on: # Ensure miners are started before client
+      - miner1
+      - miner2
+      - miner3
+      - miner4

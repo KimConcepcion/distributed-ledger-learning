@@ -4,6 +4,8 @@ set -e
 DATADIR=/root/.ethereum
 NETWORKID=987
 
+echo "Running miner node..."
+
 # Init with genesis if datadir not initialized
 if [ ! -d "$DATADIR/geth/chaindata" ] || [ -z "$(ls -A $DATADIR/geth/chaindata 2>/dev/null)" ]; then
     echo "Initializing node with genesis.json..."
@@ -23,13 +25,13 @@ fi
 ETHERBASE=$(geth --datadir $DATADIR account list | grep -o '{.*}' | tr -d '{}' | head -n1)
 echo "Using etherbase: $ETHERBASE"
 
-# Start geth - mine right away with 1 thread
+# Start geth with miner parameters
 exec geth --datadir $DATADIR \
+          --networkid $NETWORKID \
           --http --http.addr "0.0.0.0" \
           --http.port $HTTP_PORT \
           --http.api eth,net,web3,personal,miner,admin,txpool,debug,clique \
           --http.vhosts="*" \
-          --networkid $NETWORKID \
           --allow-insecure-unlock \
           --unlock $ETHERBASE \
           --mine \
@@ -39,6 +41,6 @@ exec geth --datadir $DATADIR \
           --nat "any" \
           --port $P2P_PORT \
           --nodekey /root/.ethereum/geth/nodekey \
-          --verbosity 4 \
+          --verbosity 1 \
           --nodiscover \
           --config /root/config.toml
